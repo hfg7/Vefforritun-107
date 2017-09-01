@@ -2,9 +2,17 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Forsíða</title>
+    <nav>
+      <ul>
+        <li><a href="#">Forsíða</a></li>
+        <li><a href="#">Form</a></li>
+        <li><a href="#">tafla</a></li>
+        <li><a href="#">Texti</a></li>
+      </ul>
+    </nav>
+    <h1>Velkomin á forsíðuna</h1>
   </head>
   <body>
-
   </body>
 </html>
