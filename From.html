@@ -14,10 +14,44 @@
     <h1>Form</h1>
   </head>
   <body>
-    <fieldset>
-      <legend>persónuupplýsingar</legend>
-      <label for="Nafn"></label>
-      <input type="text" name="Nafn" value="">
-    </fieldset>
+    <form class="Form" action="Form.html" method="post">
+      <fieldset>
+        <legend>persónuupplýsingar</legend>
+        <label for="Nafn">Nafn: </label>
+        <input type="text" name="Nafn" value=""><br>
+        <label for="Netfang">Netfang: </label>
+        <input type="email" name="Netfang" value="">
+        <text>Frekari upplýsingar verpa sendar á netfang</text>
+      </fieldset>
+      <fieldset>
+        <legend>Spurningar</legend>
+        <label for="Þjónusta">Tegund þjónustu:</label>
+        <select class="Þjónusta" name="þjónusta">
+          <option value="Fooþjónusta">Fooþjónusta</option>
+          <option value="Barþjónusta">Barþjónusta</option>
+          <option value="Foobarþjónusta">Foobarþjónusta</option>
+        </select><br>
+        <label class="radio">Ánægja með þjónustu:</label>
+        <div class="Radio">
+          <input type="radio" name="1">
+          <label for="1">1</label>
+          <input type="radio" name="2">
+          <label for="2">2</label>
+          <input type="radio" name="3">
+          <label for="3">3</label>
+          <input type="radio" name="4">
+          <label for="4">4</label>
+          <input type="radio" name="5">
+          <label for="5">5</label>
+        </div>
+        <input type="checkbox" name="Áfram">
+        <label for="Áfram">Áframhaldandi þjónusta</label>
+        <div class="Athugasemdir">
+          <label for="Athugasemdir">Athugasemdir</label>
+          <textarea name="Athugasemdir" rows="5" cols="40"></textarea>
+        </div>
+      </fieldset>
+      <input type="submit" class="Form" name="Form">
+    </form>
   </body>
 </html>
